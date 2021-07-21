@@ -1,0 +1,52 @@
+
+
+
+ /* for mobile  */
+ .dropdown {
+    display: none;
+    position: relative;
+  }
+
+
+
+ @media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    
+    nav {
+        width: 100%;
+    }
+    
+    main {
+        width: 100%;
+    }
+
+    .nav_container_menu {
+        max-width: 400px;
+    }
+
+    .nav_menu_split {
+        margin-right: 10px;
+    }
+
+    .nav_manu_main_center {
+        display: none;
+    }
+
+    .dropdown-content {
+        display: none;
+        width: 250px;
+      }
+
+    .menu_icon {
+        width: 50px;
+        height: 40px;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    }

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="./asset/css/dropdown.css">
+    <title>Wallet Money Apps</title>
+    <!--  start link font chữ  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <!-- end  link font chữ  -->
+</head>
+<body>
+    <nav>
+        <div class="nav_container">
+            <div class="nav_container_menu">
+                <div  class="nav_menu_split"><a href="">SplitBills</a> </div>
+                <div class="dropdown">
+                    <img onclick="myFunction()" class=" dropbtn menu_icon"
+                        src="https://static.thenounproject.com/png/2514760-200.png">
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#Howitworks">How it works</a>
+                        <a href="#Features">Features</a>
+                        <a href="#Blog">Blog</a>
+                        <a href="#Help">Help</a>
+                    </div>
+                </div>
+                <div class="nav_menu_main">
+                    <div class="nav_manu_main_center">
+                        <div class="nav_menu_main_m1"><a  href="#Howitworks">How it works</a></div>
+                        <div  class="nav_menu_main_m2"><a href="#Features">Features</a></div>
+                        <div  class="nav_menu_main_m3"><a href="#Blog">Blog</a></div>
+                        <div  class="nav_menu_main_m4"><a href="#Help">Help</a></div>
+                    </div>
+                    <div class="login_signup">
+                        <div class="login">
+                            <a href="#login">Log in</a>
+                        </div>
+                        <div class="login_signup_line"></div>
+                        <div class="signup">
+                            <button type="button">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <main>
+        <div class="main_container">
+            <!-- start main hero  -->
+            <div class="main_hero">
+                <div class="main_hero_container">
+                    <div class="main_hero_container_left">
+                        <div class="main_hero_image">
+                            <img src="./assets/images/Group 1091.svg">
+                        </div>
+                    </div>
+                    <div class="main_hero_container_right">
+                        <div class="main_hero_content_container">
+                            <div class="main_content_title">Transactions are increasingly easy using
+                                <span class="main_content_title_splitbill">SplitBills</span>
+                            </div>
+                            <div class="main_content_title_center">Easy to use, Simple to use & Safety to use.</div>
+                            <div class="main_hero_content_container_icons">
+                                <div class="main_hero_icon_content">
+                                    <img src="./assets/images/ggplay 1095.svg" alt=" ">
+                                </div>
+                                <div class="main_hero_icon_content">
+                                    <img class="ggplay_icon" src="./assets/images/appstore.svg" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- end main hero  -->
+            <div class="main_parter"></div>
+            <div class="main_social"></div>
+            <div class="main_amazing"></div>
+            <div class="main_promo"></div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

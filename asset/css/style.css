@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Gotham";
+    src:
+        url(../myfonts/BOOK/HomepageBaukasten-Book.ttf);
+  }
+@font-face {
+    font-family: "GothamBold";
+    src: url(../myfonts/BOLD/HomepageBaukasten-Bold.ttf);
+}
+
+
+href, button {
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: aqua;
+    height: 200px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 141px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+
+.nav_container_menu {
+    display: flex;
+    width: 1240px;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    /* background-color: #FFFFFF; */
+}
+
+.main_hero {
+    width: 1240px;
+    height: 600px;
+    background-color: aqua;
+}
+
+.main_hero_image {
+    width: 268px;
+    height: 498px;
+}
+
+.main_hero_container_left {
+    width: 100;
+}
+
+.main_parter {
+    width: 1240px;
+    height: 178px;
+    background-color: rgb(255, 0, 157);
+}
+
+.main_social {
+    width: 1240px;
+    height: 477px;
+    background-color: rgb(0, 204, 255);
+}
+
+.main_amazing {
+    width: 1240px;
+    height: 1618px;
+    background-color: rgb(0, 204, 255);
+}
+
+.main_promo {
+    width: 1240px;
+    height: 456px;
+    background-color: rgb(0, 204, 255);
+}
+.nav_menu_split {
+    width: 122px;
+    height: 40px;
+    line-height: 37px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    margin-right: 50px;
+}
+
+.nav_menu_split a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.nav_menu_split a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.nav_menu_main {
+    width: 1118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.nav_manu_main_center {
+    display: flex;
+    /* width: 350px; */
+    justify-content: space-between;
+    background-color: darkgrey;
+}
+
+.nav_menu_main_m1 {
+    width: 130px;
+    background-color: rgb(189, 107, 182);
+    margin-right: 36px;
+    font-family: "Gotham";
+}
+.nav_menu_main_m1 a, .nav_menu_main_m2 a, .nav_menu_main_m3 a, .nav_menu_main_m4 a {
+    color: #161616;
+    font-family: "Gotham";
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.nav_menu_main_m1 a:hover, .nav_menu_main_m2 a:hover, .nav_menu_main_m3 a:hover, .nav_menu_main_m4 a:hover  {
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav_menu_main_m2 {
+    width: 87px;
+    margin-right: 40px;
+    background-color: rgb(119, 116, 75);
+}
+
+.nav_menu_main_m3 {
+    width: 45px;
+    margin-right: 40px;
+    background-color: rgb(107, 189, 107);
+}
+
+.nav_menu_main_m4 {
+    width: 45px;
+    margin-right: 43px;
+    background-color: rgb(107, 173, 189);
+}
+
+.login_signup {
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.login_signup button {
+    height: 60px;
+}
+
+.signup {
+    display: flex;
+    height: 60px;
+    align-items: center;    
+    /* margin-right: 50px; */
+    font-family: "Gotham";
+}
+
+.login {
+    font-size: 20px;
+    font-family: "Gotham";
+}
+
+.login a {
+    text-decoration: none;
+    color: #161616;
+    opacity: 0.3;
+    line-height: 20px;
+}
+
+.signup button {
+    display: flex;
+    align-items: center; 
+    font-family: "Gotham";
+    font-size: 20px;
+    background-color: #13A0FE;
+    border : 1px solid #13A0FE;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+.login_signup_line {
+    height: 60px;
+    margin: 0px 25px;
+    border: 1px solid black;
+    opacity: 0.3;
+}
