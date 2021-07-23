@@ -1,255 +1,67 @@
-
-
-
- @media   (max-width: 575.9px) {
-    body, nav, main , footer {
-        width: 100%;
-        margin: 0 ;
-    }
-    .nav_container_menu {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-
-    main {
-        height: auto;
-    }
-    
-    .main_hero {
+@media (min-width: 280px) and (max-width:549.9px) {
+    body, .main_hero_container, .main_hero, .main_hero_container_right, .main_hero_content_container {
         width: 100%;
         height: auto;
     }
-  
-    .main_hero_content_container {
-        width: 100%;
-        display: block;
-    }
-    .menu_icon {
-        display: block;
-        margin-left: 50px;
-    }
-
-    .main_hero_container_right {
-        width: 100%;
-        margin: 0;
+    .amazing_content_right_img {
+        width: 80% !important;
         text-align: center;
     }
-    .main_content_title ,.main_hero_content_container, .main_content_title h1 {
-       display: block;
-        width: 100%;
-
+    .amazing_content_right_img img {
+        width: 80%;
     }
 
-    .main_content_title, .main_content_title_splitbill {
-        width: 100%;
-        font-size: 40px;
-        text-align: center;
+    .main_content_title h1 {
+        font-size: 18px;
     }
-
-    .main_content_title_center  {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: 0px auto;
+   .amazing_content_left_top, .main_social_container_title ,
+     .main_amazing_container_title, .main_content_title,  
+     .main_promo_container_title  
+     {
+        font-size: 30px;
+    }
+    .amazing_content_left_bottom {
         font-size: 20px;
     }
 
+    .main_promo1_title {
+        display: block;
+    }
 
-    .main_hero_content_container_icons {
-        margin-top: 40px;
-        display: flex;
+    .main_amazing_container_title, .amazing_content_left_bottom {
         width: 100%;
-        justify-content: center;
     }
 
     .main_hero_icon_content {
-        margin-left: 40px;
-    }
-    .main_hero_container_left div{
-        display: block;
-        width: 100%;
+        margin-bottom: 20px;
     }
 
-    .main_hero_image  {
-        width: 100%;
-        margin: 0;
-    }
-
-    .login_signup {
-        display: block;    
-        width: 100%;
-    }
-
-    .nav_menu_main {
-        display: none;
-        width: 40%;
-        background-color: darkgrey;
-        position: fixed;
-    }
-
-    .nav_menu_main_m1 a, .nav_menu_main_m2 a, .nav_menu_main_m3 a, .nav_menu_main_m4 a{
-        color: #FFFFFF !important;
-    }
-    .login_signup_line {
-        display: none;
-    }
-    .signup {
-    color: #FFFFFF ;
-        height: 21px;
-    }
-
-    .login a{
-    color: #FFFFFF ;
-    font-size: 16px;
-    }
-
-    .signup button{
-        display: block;
-        margin: 0;
-        height: 21px;
-        color: #FFFFFF ;
-        font-size: 16px;
-        text-align: left;
-        background-color: darkgrey;
-        border: darkgrey;
-    }
-
-    .nav_manu_main_center {
-        display: block;
-        width: 100%;
-    }
-
-    .main_hero_container {
-        display: block;
-        width: 100%;
-
-    }
-
-    .main_hero_container_left {
-        width: 100%;
-        text-align: center;
-        margin: 0px;
-    }
-
-    .main_parter, .main_parter_container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .main_parter_container_contents {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 0 50px 0 50px;
-        height: auto;
-    }
-
-    .main_partner_image {
-        margin: 0;
-    }
-    
-   .main_social, .main_social_container , .main_amazing, .main_amazing_container{
-       width: 100%;
-       height: auto;
-   }
-
-   .main_social_container_title {
-       width: 100%;
-       font-size: 40px;
-   }
-
-   .main_social_container_contents {
-       width: 100%;
-       height: auto;
-   }
-
-   .main_amazing_container_content, .main_amazing_content1, .main_amazing_content2 {
-       width: 100%;
-       display: block;
-       height: auto;
-       margin: 0;
-   }
-
-   .amazing_content_right {
-       width: 100%;
-       margin: 20px 0px 20px 0px;
-   }
-
-
-   .amazing_content_left {
-       display: flex;
-       width: 100%;
-       align-items: center;
-       margin: 0;
-   }
-
-   .amazing_content_left2 {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    margin: 0;
-   }
-
-   .amazing_content_right_img {
-       width: 100%;
-       text-align: center;
-   }
-
-   .amazing_content_right_img {
-    width: 100%;
-    text-align: center;
-}
-
-   .amazing_content_right2 {
-       display: flex;
-       align-items: center;
-       width: 100%;
-       margin: 0;
-       text-align: center;
-   }
-
-   .main_promo, .main_promo_container {
-       width: 100%;
-       height: auto;
-   }
-   .main_promo_container_content {
+    .main_hero_content_container_icons {
         width: 100%;
         height: auto;
         flex-direction: column;
         text-align: center;
+        justify-content: space-between;
         align-items: center;
-   }
-   .main_promo1, .main_promo2, .main_promo3 {
-       text-align: center;
-       margin: 20px;
-   }
+    }
  
 }
 
 
-@media   (min-width: 576px) and (max-width: 767.9px){
+ @media  (max-width: 575.9px) {
     .main_amazing_container_title {
+        display: flex;
         width: 100%;
         font-size: 40px;
         height: auto;
-        text-align: center;
-    }
-
-    .main_amazing_container_title  {
-        display: flex;
-        align-items: center;
         justify-content: center;
         text-align: center;
     }
 
+    .main_social_image {
+        width: 100%;
+    }
+    
      nav, main , footer {
         width: 100%;
         margin: 0 ;
@@ -416,44 +228,322 @@
    .main_social_container_title {
        width: 100%;
        font-size: 40px;
+       height: auto;
    }
 
    .main_social_container_contents {
        width: 100%;
        height: auto;
+       padding: auto;
    }
 
-   .main_amazing_container_content, .main_amazing_content1, .main_amazing_content2 {
+   .main_amazing_container_content, .main_amazing_content1 {
        width: 100%;
        display: block;
        height: auto;
        margin: 0;
    }
+ 
+
+ 
 
    .amazing_content_right {
        width: 100%;
        margin: 20px 0px 20px 0px;
    }
 
+   .amazing_content_right_i {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+    
 
    .amazing_content_left {
        display: flex;
        width: 100%;
-       align-items: center;
+    text-align: center;
+    align-items: center;
        margin: 0;
    }
 
-   .amazing_content_left2 {
+   .amazing_content_left_i {
     display: flex;
-    text-align: center;
     width: 100%;
+    text-align: center;
     align-items: center;
     margin: 0;
-   }
+}
+
 
    .amazing_content_right_img {
        width: 100%;
        text-align: center;
+   }
+   .amazing_content_right_img img {
+       width: 100%;
+   }
+
+   .amazing_content_right2 {
+       display: flex;
+       align-items: center;
+       width: 100%;
+       margin: 0;
+       text-align: center;
+   }
+
+   .main_promo, .main_promo_container {
+       width: 100%;
+       height: auto;
+   }
+   .main_promo_container_content {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+   }
+   .main_promo1, .main_promo2, .main_promo3 {
+       text-align: center;
+       margin: 20px;
+   }
+}
+
+/* ---------------------------------------------------------------------------------- */
+@media   (min-width: 576px) and (max-width: 767.9px){
+    .main_amazing_container_title {
+        display: flex;
+        width: 100%;
+        font-size: 40px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main_social_image {
+        width: 100%;
+    }
+    
+     nav, main , footer {
+        width: 100%;
+        margin: 0 ;
+    }
+    body {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+    .nav_container_menu {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    main {
+        height: auto;
+    }
+    
+    .main_hero {
+        width: 100%;
+        height: auto;
+    }
+  
+    .main_hero_content_container {
+        width: 100%;
+        display: block;
+    }
+    .menu_icon {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .main_hero_container_right {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .main_content_title ,.main_hero_content_container, .main_content_title h1 {
+       display: block;
+        width: 100%;
+
+    }
+
+    .main_content_title, .main_content_title_splitbill {
+        width: 100%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main_content_title_center  {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 20px;
+    }
+
+
+    .main_hero_content_container_icons {
+        margin-top: 40px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main_hero_icon_content {
+        margin-left: 40px;
+    }
+    .main_hero_container_left div{
+        display: block;
+        width: 100%;
+    }
+
+    .main_hero_image  {
+        width: 100%;
+        margin: 0;
+    }
+
+    .login_signup {
+        display: block;    
+        width: 100%;
+    }
+
+    .nav_menu_main {
+        display: none;
+        width: 40%;
+        background-color: darkgrey;
+        position: fixed;
+    }
+
+    .nav_menu_main_m1 a, .nav_menu_main_m2 a, .nav_menu_main_m3 a, .nav_menu_main_m4 a{
+        color: #FFFFFF !important;
+    }
+    .login_signup_line {
+        display: none;
+    }
+    .signup {
+    color: #FFFFFF ;
+        height: 21px;
+    }
+
+    .login a{
+    color: #FFFFFF ;
+    font-size: 16px;
+    }
+
+    .signup button{
+        display: block;
+        margin: 0;
+        height: 21px;
+        color: #FFFFFF ;
+        font-size: 16px;
+        text-align: left;
+        background-color: darkgrey;
+        border: darkgrey;
+    }
+
+    .nav_manu_main_center {
+        display: block;
+        width: 100%;
+    }
+
+    .main_hero_container {
+        display: block;
+        width: 100%;
+
+    }
+
+    .main_hero_container_left {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .main_parter, .main_parter_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .main_parter_container_contents {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 20px 0 20px;
+        height: auto;
+    }
+
+    .main_partner_image {
+        margin: 0;
+    }
+    
+   .main_social, .main_social_container , .main_amazing, .main_amazing_container{
+       width: 100%;
+       height: auto;
+   }
+
+   .main_social_container_title {
+       width: 100%;
+       font-size: 40px;
+       height: auto;
+   }
+
+   .main_social_container_contents {
+       width: 100%;
+       height: auto;
+       padding: auto;
+   }
+
+   .main_amazing_container_content, .main_amazing_content1 {
+       width: 100%;
+       display: block;
+       height: auto;
+       margin: 0;
+   }
+ 
+
+ 
+
+   .amazing_content_right {
+       width: 100%;
+       margin: 20px 0px 20px 0px;
+   }
+
+   .amazing_content_right_i {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+    
+
+   .amazing_content_left {
+       display: flex;
+       width: 100%;
+    text-align: center;
+    align-items: center;
+       margin: 0;
+   }
+
+   .amazing_content_left_i {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+   .amazing_content_right_img {
+       width: 100%;
+       text-align: center;
+   }
+   .amazing_content_right_img img {
+       width: 100%;
    }
 
    .amazing_content_right2 {
