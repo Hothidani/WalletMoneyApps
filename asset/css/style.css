@@ -166,6 +166,18 @@ main {
     height: 178px;
 }
 
+.main_social_image {
+    width: 101px;
+    height: 104px;
+    /* margin-right: 32px; */
+    border-radius: 5px;
+}
+
+.main_social_image img {
+    width: 101px;
+    border-radius: 20px;
+    object-fit: cover;
+}
 
 .main_partner {
     display: flex;
@@ -242,6 +254,7 @@ main {
     display: flex;
     width: 436px;
     height: 105px;
+    justify-content: space-between;
 }
 
 .amazing_content_right {
@@ -294,8 +307,7 @@ main {
     width: 1240px;
     height: 461px;
     margin-top: 50px;
-    background-color: #BCBCBC;
-}
+    background: rgba(18, 158, 252, 0.1);}
 
 .main_amazing_content1 {
     display: flex;
@@ -308,6 +320,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.amazing_content_left_i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45px;
 }
 
 
@@ -341,23 +360,28 @@ main {
     margin-left: 45px;
 }
 
+.amazing_content_right_i {
+    width: 542px;
+    height: 361px;
+    /* margin-left: 45px; */
+}
+
+
+
+ 
+
 .amazing_content_right img {
     width: 542px;
     object-fit: cover;
 }
 
-
-.main_amazing_content2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-    
-}
-
-.amazing_content_left2 {
+.amazing_content_right_i img {
     width: 542px;
-    height: 361px;
+    object-fit: cover;
 }
+
+
+
 
  .amazing_content_right_top2  {
     width: 426px;
@@ -389,6 +413,16 @@ main {
     justify-content: center;
 }
  
+.amazing_content_img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 542px; 
+    height: 361px;
+    background-color: aqua;
+    text-align: center;
+}
+
 .main_promo {
     display: flex;
     justify-content: center;
@@ -669,7 +703,178 @@ footer {
     width: 100%;
     height: 507px;
     margin-top: 137px;
-    background-color: #13A0FE ;
 }
 
 
+.footer_top_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 412px;
+    /* align-items: center; */
+    background-color: #13A0FE ;
+
+}
+
+.footer_bottom_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 95px;
+    background-color: #1D2432 ;
+}
+
+.footer_top_container_content {
+    display: flex;
+    width: 1124px;
+    height: 250px;
+    margin-top: 104px;
+    justify-content: space-between;
+}
+
+.footer_bottom_container_content_leanMore{
+    width: 138px;
+    height: 250px;
+}
+
+.footer_bottom_container_content_social {
+    width: 100px;
+    height: 250px;
+}
+
+.footer_bottom_container_content_subscribe {
+    width: 316px;
+    height: 110px;
+}
+
+.footer_bottom_container_content_download {
+    width: 180px;
+    height: 234px;
+}
+
+.footer_top_title {
+    color: #FFFFFF;
+    font-family: "Gotham";
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.footer_top_list {
+    margin-top: 30px;
+}
+
+.list_content {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-family: "Gotham";
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer_input_e {
+    width: 245px;
+    height: 50px;
+}
+
+.footer_input_email{
+    width: 245px;
+    height: 44px;
+    
+}
+
+.footer_input_email input {
+    font-family: "Gotham";
+}
+
+.footer_input_icon {
+    display: flex;
+    width: 71px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0070BB;
+}
+
+.footer_line {
+    text-align: center;
+    width: 22px;
+    height: 16px;
+}
+
+.footer_input {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.footer_top_icons4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.footer_bottom_container{
+    width: 100%;
+    height: 95px;
+}
+
+ 
+.footer_top_icons_bottom {
+    width: 180px;
+    height: 72px;
+    margin-top: 30px;
+}
+
+.footer_top_icons_bottom  img {
+    width: 180px;
+    height: 72px;
+    border-radius: 5px;
+    object-fit: cover;
+
+    }
+
+    
+.footer_top_icons_top {
+    width: 180px;
+    height: 72px;
+}
+
+.footer_top_icons_top  img {
+    width: 180px;
+    height: 72px;
+    border-radius: 5px;
+    object-fit: cover;
+    }
+
+    .footer_bottom1, .footer_bottom2, .footer_bottom3 {
+        color: #FFFFFF;
+        font-family: "Gotham";
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footer_bottom_right {
+        display: flex;
+        width: 467px;
+        height: 30px;
+        justify-content: space-between;
+    }
+
+    .footer_bottom_container_contents {
+        display: flex;
+        width:1124px ;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_bottom_left {
+        width: 207px;
+        height: 30px;
+        color: #FFFFFF;
+        font-family: "Gotham";
+        font-size: 20px;
+        line-height: 30px;
+    }
