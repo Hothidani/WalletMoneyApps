@@ -149,4 +149,15 @@
             width: 100%;
         }
 
+        .footer_top_container, .footer_bottom_container {
+            width: 100%;
+            height: auto;
+        }
+
+        .footer_top_container_content {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
     }

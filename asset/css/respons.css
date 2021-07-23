@@ -307,10 +307,111 @@
        text-align: center;
        margin: 20px;
    }
+
+   .footer_top_container, .footer_bottom_container {
+    width: 100%;
+    height: auto;
+}
+
+.footer_input {
+    margin: 0;
+}
+.footer_bottom_container_contents {
+    display: block;
+}
+.footer_bottom_right {
+    justify-content: space-between;
+}
+
+.footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
+ .footer_bottom_container_content_subscribe, .footer_bottom_container_content_download {
+    width: 100%;
+
+}
+
+.footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
+    margin-top: 30px;
+}
+
+.footer_top_container, .footer_bottom_container {
+    width: 100%;
+    height: auto;
+}
+
+.footer_input {
+    margin: 0;
+}
+.footer_bottom_container_contents {
+    display: block;
+}
+.footer_bottom_right {
+    justify-content: space-between;
+}
+
+.footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
+ .footer_bottom_container_content_subscribe, .footer_bottom_container_content_download {
+    width: 100%;
+
+}
+
+.footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
+    margin-top: 30px;
+}
+
+ 
+.footer_top_container_content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
 }
 
 /* ---------------------------------------------------------------------------------- */
 @media   (min-width: 576px) and (max-width: 767.9px){
+
+    .footer_top_container, .footer_bottom_container {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer_input {
+        margin: 0;
+    }
+    .footer_bottom_container_contents {
+        display: block;
+    }
+    .footer_bottom_right {
+        justify-content: space-between;
+    }
+
+    .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
+     .footer_bottom_container_content_subscribe, .footer_bottom_container_content_download {
+        width: 100%;
+
+    }
+
+    .footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
+        margin-top: 30px;
+    }
+    .footer_top_container_content {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer_top_icons4 {
+        text-align: center;
+        justify-content: center;
+    }
+
     .main_amazing_container_title {
         display: flex;
         width: 100%;
