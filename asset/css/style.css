@@ -102,6 +102,7 @@ main {
     font-family: "Gotham";
     font-size: 48px;
     line-height: 55px;
+    font-weight: 500;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -234,6 +235,7 @@ main {
     font-family: "GothamBold";
     text-align: center;
     font-size: 48px;
+    font-weight: 700;
     line-height: 60px;
 }
 
@@ -297,6 +299,7 @@ main {
     font-family: "GothamBold";
     font-size: 48px;
     line-height: 65px;
+    font-weight: 700;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -338,6 +341,7 @@ main {
     font-family: "GothamBold";
     font-size: 48px;
     line-height: 60px;
+    font-weight: 700;
 }
 
 .amazing_content_left_bottom  {
@@ -446,6 +450,7 @@ main {
     font-family: "GothamBold";
     font-size: 48px;
     line-height: 60px;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -754,9 +759,10 @@ footer {
 
 .footer_top_title {
     color: #FFFFFF;
-    font-family: "Gotham";
+    font-family: "GothamBold";
     font-size: 24px;
     line-height: 30px;
+    font-weight: 400;
 }
 
 .footer_top_list {

@@ -1,4 +1,4 @@
-@media (min-width: 280px) and (max-width:549.9px) {
+@media (max-width:480px) {
     body, .main_hero_container, .main_hero, .main_hero_container_right, .main_hero_content_container {
         width: 100%;
         height: auto;
@@ -9,6 +9,17 @@
     }
     .amazing_content_right_img img {
         width: 80%;
+    }
+    .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social {
+        width: 60%;
+    }
+
+    .footer_bottom_container_content_subscribe {
+        width: 100%;
+    }
+        
+    .footer_input {
+        margin: 30px 0px 0px 0px ;
     }
 
     .main_content_title h1 {
@@ -44,7 +55,32 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .footer_bottom_container {
+        width: 90%;
+        height: auto;
+    }
  
+    .footer_bottom_right {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .main_social_container_image {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main_social_image {
+        width: 50%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer_top_container_content {
+        width: 90%;
+    }
 }
 
 
@@ -58,10 +94,9 @@
         text-align: center;
     }
 
-    .main_social_image {
-        width: 100%;
+    .footer_top_container_content {
+        width: 90%;
     }
-    
      nav, main , footer {
         width: 100%;
         margin: 0 ;
@@ -100,17 +135,21 @@
         margin: 0;
         text-align: center;
     }
-    .main_content_title ,.main_hero_content_container, .main_content_title h1 {
+    .main_hero_content_container, .main_content_title h1 {
        display: block;
         width: 100%;
+    }
 
+    .footer_top_icons4 {
+        align-items: flex-start;
     }
 
     .main_content_title, .main_content_title_splitbill {
-        width: 100%;
+        width: 90%;
         font-size: 40px;
         text-align: center;
     }
+    
 
     .main_content_title_center  {
         width: 100%;
@@ -149,7 +188,7 @@
 
     .nav_menu_main {
         display: none;
-        width: 40%;
+        width: 50%;
         background-color: darkgrey;
         position: fixed;
     }
@@ -246,24 +285,51 @@
  
 
  
-
+   .amazing_content_right img {
+    width: 100%;
+}
    .amazing_content_right {
-       width: 100%;
-       margin: 20px 0px 20px 0px;
+       /* justify-content: center; */
+       /* align-items: center; */
+       width: 80%;
+    /* text-align: center; */
    }
 
-   .amazing_content_right_i {
+   .amazing_content_right_img {
     width: 100%;
-    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+.amazing_content_right_img img {
+    width: 100%;
 }
 
+.amazing_content_left_bottom {
+    width: 100%;
+}
+
+
+.amazing_content_right_i img{
+    width: 100%;
+}
+   .amazing_content_right_i {
+    width: 80%;
+    margin-left: 45px;
+}
+
+.main_amazing_content1 {
+    margin-top: 30px;
+}
+
+.main_social_container_contents {
+    width: 90%;
+}
     
 
    .amazing_content_left {
        display: flex;
        width: 100%;
-    text-align: center;
-    align-items: center;
+        text-align: center;
+        align-items: center;
        margin: 0;
    }
 
@@ -276,13 +342,7 @@
 }
 
 
-   .amazing_content_right_img {
-       width: 100%;
-       text-align: center;
-   }
-   .amazing_content_right_img img {
-       width: 100%;
-   }
+  
 
    .amazing_content_right2 {
        display: flex;
@@ -314,33 +374,41 @@
 }
 
 .footer_input {
-    margin: 0;
+    margin: 30px 0px 0px 0px ;
 }
+
 .footer_bottom_container_contents {
-    display: block;
+    width: 90%;
+    flex-direction: column;
 }
+
 .footer_bottom_right {
     justify-content: space-between;
 }
 
+ 
+
 .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
  .footer_bottom_container_content_subscribe, .footer_bottom_container_content_download {
-    width: 100%;
-
-}
-
-.footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
+    width: 80%;
     margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
 }
 
+.footer_input {
+    justify-content: left;
+}
+
+.footer_bottom_container_content_download {
+    margin-bottom: 30px;
+}
 .footer_top_container, .footer_bottom_container {
     width: 100%;
     height: auto;
 }
 
-.footer_input {
-    margin: 0;
-}
+
 .footer_bottom_container_contents {
     display: block;
 }
@@ -348,17 +416,6 @@
     justify-content: space-between;
 }
 
-.footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
- .footer_bottom_container_content_subscribe, .footer_bottom_container_content_download {
-    width: 100%;
-
-}
-
-.footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
-    margin-top: 30px;
-}
-
- 
 .footer_top_container_content {
     display: flex;
     text-align: center;
@@ -367,34 +424,352 @@
     justify-content: center;
     width: 100%;
     height: auto;
+    }
 }
+/* ------------------------------------------------------------------- */
+
+@media   (min-width: 768px) and (max-width: 991.9px){
+    body, nav, footer {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .nav_container, .main_hero , .nav_container_menu {
+        width: 90%;
+        height: auto;
+    }
+
+    .nav_menu_main  {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top:60px;
+        
+    }
+
+    .nav_manu_main_center {
+        width: 100%;
+    }
+ .login_signup {
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+
+    
+.main_amazing_container_title {
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
 }
+
+.main_social_image {
+    width: 100%;
+}
+
+ 
+main {
+    height: auto;
+}
+
+.main_hero {
+    width: 100%;
+    height: auto;
+}
+
+ 
+
+.main_hero_content_container {
+    width: 100%;
+    display: block;
+}
+
+
+.main_hero_container_right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.main_content_title ,.main_hero_content_container, .main_content_title h1 {
+   display: block;
+    width: 100%;
+
+}
+
+.main_content_title, .main_content_title_splitbill {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main_content_title_center  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+
+.main_hero_content_container_icons {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main_hero_icon_content {
+    margin-left: 40px;
+}
+.main_hero_container_left div{
+    display: block;
+    width: 100%;
+}
+
+.main_hero_image  {
+    width: 100%;
+    margin: 0;
+}
+ 
+.main_hero_container {
+    display: block;
+    width: 90%;
+
+}
+
+.main_hero_container_left {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.main_parter, .main_parter_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.main_parter_container_contents {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    height: auto;
+}
+
+.main_partner_image {
+    margin: 0;
+}
+
+.main_social, .main_social_container , .main_amazing{
+   width: 100%;
+   height: auto;
+}
+
+.main_amazing_container {
+    width: 90%;
+    height: auto;
+}
+
+.main_social_container_title {
+   width: 100%;
+   font-size: 40px;
+   height: auto;
+}
+
+.main_social_container_contents {
+   width: 90%;
+   height: auto;
+   padding: auto;
+}
+
+.main_amazing_container_content, .main_amazing_content1 {
+   width: 100%;
+   display: block;
+   height: auto;
+   margin: 0;
+}
+
+
+
+
+.amazing_content_right {
+   width: 100%;
+   margin: 20px 0px 20px 0px;
+}
+
+.amazing_content_right_i {
+width: 100%;
+margin: 20px 0px 20px 0px;
+}
+
+
+
+.amazing_content_left {
+   display: flex;
+   width: 100%;
+text-align: center;
+align-items: center;
+   margin: 0;
+}
+
+.amazing_content_left_i {
+display: flex;
+width: 100%;
+text-align: center;
+align-items: center;
+margin: 0;
+}
+
+
+.amazing_content_right_img {
+   width: 100%;
+   text-align: center;
+}
+.amazing_content_right_img img {
+   width: 100%;
+}
+
+.amazing_content_right2 {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   margin: 0;
+   text-align: center;
+}
+
+.main_promo, .main_promo_container {
+   width: 100%;
+   height: auto;
+}
+.main_promo_container_content {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.main_promo1, .main_promo2, .main_promo3 {
+   text-align: center;
+   margin: 20px;
+}
+
+ .footer_bottom_container {
+    width: 100%;
+}
+
+.footer_bottom_container_contents {
+    width: 90%;
+}
+.footer_bottom_right {
+    justify-content: space-between;
+}
+
+.footer_top_container {
+    width: 100%;
+    height: auto;
+}
+
+ 
+.footer_top_container_content {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    }
+
+    .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
+    .footer_bottom_container_content_subscribe {
+        width: 40%;
+    }
+
+    .footer_bottom_container_content_download {
+        width: 40%;
+        margin-top: 110px;
+    }
+    .footer_top_icons4 {
+        align-items: flex-start;
+    }
+}
+
+/* 
+@media   (min-width: 992px) and (max-width: 1199.9px){
+} */
+
+
+
+
 
 /* ---------------------------------------------------------------------------------- */
 @media   (min-width: 576px) and (max-width: 767.9px){
 
-    .footer_top_container, .footer_bottom_container {
+    /* .footer_top_container,  */
+    .footer_bottom_container {
         width: 100%;
         height: auto;
     }
 
-    .footer_input {
-        margin: 0;
+    
+.footer_top_container {
+    width: 100%;
+    height: auto;
+}
+
+ 
+.footer_top_container_content {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
     }
+
+    .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
+    .footer_bottom_container_content_subscribe {
+        width: 45%;
+    }
+
+    .footer_bottom_container_content_download {
+        width: 40%;
+        margin-top: 110px;
+    }
+    .footer_top_icons4 {
+        align-items: flex-start;
+    }
+/* 
+    .footer_input {
+        margin: 30px 0px 0px 0px ;
+    } */
     .footer_bottom_container_contents {
         display: block;
+        width: 90%;
     }
     .footer_bottom_right {
         justify-content: space-between;
     }
 
-    .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
+    /* .footer_bottom_container_content_leanMore, .footer_bottom_container_content_social,
      .footer_bottom_container_content_subscribe, .footer_bottom_container_content_download {
         width: 100%;
 
-    }
+    } */
 
-    .footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
+    /* .footer_bottom_container_content_download, .footer_bottom_container_content_subscribe, .footer_bottom_container_content_social  {
         margin-top: 30px;
     }
     .footer_top_container_content {
@@ -410,7 +785,7 @@
     .footer_top_icons4 {
         text-align: center;
         justify-content: center;
-    }
+    } */
 
     .main_amazing_container_title {
         display: flex;
@@ -448,15 +823,17 @@
         width: 100%;
         height: auto;
     }
+
+    .menu_icon {
+        display: block;
+        margin-left: 50px;
+    }
   
     .main_hero_content_container {
         width: 100%;
         display: block;
     }
-    .menu_icon {
-        display: block;
-        margin-left: 50px;
-    }
+ 
 
     .main_hero_container_right {
         width: 100%;
@@ -595,7 +972,7 @@
    }
 
    .main_social_container_contents {
-       width: 100%;
+       width: 90%;
        height: auto;
        padding: auto;
    }
@@ -671,3 +1048,13 @@
        margin: 20px;
    }
 }
+
+
+
+
+
+
+
+
+
+ 
